@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My SACCO</title>
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="mysacco style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">My SACCO</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+   <!-- Hero Section -->
+<section id="home" class="hero" style="background-image: url('https://cioafrica.co/wp-content/uploads/2020/08/saccos.jpg'); background-size: cover; background-position: center; color: blueviolet; height: 100vh; display: flex; align-items: center;">
+  <div class="container">
+    <h1 class="hero-title">Secure Your Future with My SACCO</h1>
+    <p class="hero-subtitle">Smart savings. Easy loans. Real growth.</p>
+    <a href="#products" class="btn btn-primary">Join Now</a>
+  </div>
+</section>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container"></div>
+      <h2>About Us</h2>
+      <div class="container">
+      <p>We offer secure savings, flexible loans, and financial education for our members.</p>
+    </div>
+  </section>
+
+  <!-- Products/Services Section -->
+  <section id="products" class="section services">
+    <div class="container"></div>
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card"><h3>Savings Accounts</h3><p>Flexible savings options to grow your money.</p></div>
+        <div class="card"><h3>Personal Loans</h3><p>Affordable loans for emergencies and goals.</p></div>
+        <div class="card"><h3>Group Loans</h3><p>Supportive group-based lending.</p></div>
+      </div>
+    </div>
+  </section>
+         <section id="CEO" class="section CEO">
+    <div class="container"></div>
+        <h2>CEO Founder</h2>
+        <img src="festus kyalo mutua.jpg" alt="Festus Kyalo Mutua" class="director-img">
+        <p><strong>Festus Kyalo Mutua</strong></p>
+        <p>CEO Founder</p>
+        <p>Festus Kyalo Mutua leads mysacco with a vision for a connected future.</p>
+        <div class="contact-info">
+            <h4>Connect with Festus Kyalo Mutua</h4>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/festus-kyalo-mutua-11137530b/" target="_blank">LinkedIn Profile</a></p>
+            <p><strong>Email:</strong> <a href="mailto:festusk54@gmail.com">festusk54@gmail.com</a></p>
+        </div>
+         </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label>Name<input type="text" name="name" required /></label>
+        <label>Email<input type="email" name="email" required /></label>
+        <label>Message<textarea name="message" required></textarea></label>
+        <button type="submit" class="btn">Submit</button>
+        <form action="contact.php" method="POST">
+      </form>
+    </div>
+  </section>
+
+  
+
+  <section class="section" id="calculator">
+  <div class="container">
+    <h2>Loan Calculator</h2>
+    <label>Amount: <input type="number" id="loanAmount"></label>
+    <label>Interest Rate (%): <input type="number" id="interestRate"></label>
+    <label>Duration (months): <input type="number" id="duration"></label>
+    <button onclick="calculateLoan()">Calculate</button>
+    <p id="monthlyPayment"></p>
+  </div>
+</section>
+<section class="section" id="social-media"></section>
+<div class="social-media">
+        <h2>Follow Us on Social Media</h2>
+        <div class="social-icons">
+            <a href="https://wa.me/254710694981" style="background-color: green;" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100001414701510" style="background-color: blue;" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/https://x.com/festus69020" target="_blank" aria-label="Twitter Profile">
+  <i class="fab fa-twitter" style="font-size: 24px; color: #1DA1F2;"></i>
+</a>
+          </div>
+  
+
+  <!-- Footer -->
+  <footer class="site-footer">
+      <div class="container">
+      <p>© 2025 My SACCO. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
